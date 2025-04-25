@@ -6,13 +6,8 @@ header {
     width: 100%;
 }
 
-#logo {
-    margin-left: 20px;
-}
 
-nav {
-    margin-right: 20px;
-}
+
 
 nav ul {
     display: flex;
@@ -30,7 +25,7 @@ nav ul li a {
 section {
     padding: 60px 0;
     border-bottom: 1px solid #eee;
-    background-color: #f8f8f8;
+    background-color: #f5f5f5;
 }
 
 section:last-child {
@@ -66,9 +61,33 @@ section button {
     cursor: pointer;
 }
 
-section button:hover {
-    background-color: #555;
+section > div > div {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
 }
+
+section > div > div > div {
+    flex: 1;
+    min-width: 200px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+section > div > div > div img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+section > div > div > div button {
+    margin-top: 10px;
+}
+
+
 
 
 
