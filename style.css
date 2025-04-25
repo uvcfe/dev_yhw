@@ -1,3 +1,6 @@
+* {
+    outline: 1px solid black;
+}
 header {
     display: flex;
     justify-content: space-between;
@@ -14,10 +17,7 @@ nav ul {
     padding: 0;
 }
 
-nav ul li a {
-    text-decoration: none;
-    color: #333;
-}
+
 
 section {
     padding: 60px 0;
@@ -25,13 +25,8 @@ section {
     background-color: #f5f5f5;
 }
 
-section:last-child {
-    border-bottom: none;
-}
 
-section:nth-child(even) {
-    background-color: #f0f0f0;
-}
+
 
 section > div {
     max-width: 1200px;
@@ -66,43 +61,22 @@ section > div > div {
 
 section > div > div > div {
     flex: 1;
-    min-width: 200px;
     padding: 15px;
-    background-color: white;
+    background-color: rgb(0, 0, 0);
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     text-align: center;
 }
 
-section > div > div > div img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 10px;
-}
 
-section > div > div > div button {
-    margin-top: 10px;
-}
 
-section .arrow-btn, 
-section .down-btn {
-    padding: 8px 12px;
-    border: 1px solid #333;
-    background-color: #fff;
-    cursor: pointer;
-    font-size: 16px;
-}
 
-section .down-btn {
-    margin: 0 auto;
-}
+
+
 
 .main-banner {
     background-image: url('https://www.navercloudcorp.com/static/video/home_main_cloud.jpg');
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-    min-height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -114,13 +88,13 @@ section .down-btn {
 
 .main-banner p {
     font-size: 24px;
-    margin: 10px 0;
+    margin: 0;
     text-align: left;
 }
 
-.main-banner button {
+button {
     padding: 12px 24px;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(162, 255, 0, 0.2);
     color: white;
     border: 1px solid white;
     border-radius: 4px;
