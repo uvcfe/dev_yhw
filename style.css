@@ -57,6 +57,7 @@ section > div > div {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 section > div > div > div {
