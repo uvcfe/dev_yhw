@@ -6,9 +6,6 @@ header {
     width: 100%;
 }
 
-
-
-
 nav ul {
     display: flex;
     list-style: none;
@@ -85,6 +82,51 @@ section > div > div > div img {
 
 section > div > div > div button {
     margin-top: 10px;
+}
+
+section .arrow-btn, 
+section .down-btn {
+    padding: 8px 12px;
+    border: 1px solid #333;
+    background-color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+section .down-btn {
+    margin: 0 auto;
+}
+
+.main-banner {
+    background-image: url('https://www.navercloudcorp.com/static/video/home_main_cloud.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    text-align: left;
+    padding: 40px;
+}
+
+.main-banner p {
+    font-size: 24px;
+    margin: 10px 0;
+    text-align: left;
+}
+
+.main-banner button {
+    padding: 12px 24px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    align-self: flex-start;
 }
 
 
